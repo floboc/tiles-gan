@@ -25,7 +25,7 @@ There are few dependencies:
 
 ## How to use it
 
-1. Create your own dataset:
+### 1. Create your own dataset:
 - You can use the simple Processing (<https://processing.org/>) script provided in this repository to convert downloaded tilesets into individual tiles
 - All tilesets must be in a folder with no other file, and tiles should be of the same size in all tilesets (here 32x32)
 - Tiles will be saved as individual PNG files. Empty tiles will be omitted.
@@ -33,7 +33,7 @@ There are few dependencies:
 Here are some samples of tiles I used for my dataset:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/training_images.jpg)
 
-2. Train your model:
+### 2. Train your model:
 - Edit train.py so that the paths match that of your dataset (images have to be power of 2)
 - Also adjust any settings as you want. The settings are detailed in the file gan.py
 - run using "python train.py"
@@ -41,7 +41,7 @@ Here are some samples of tiles I used for my dataset:\
 You should be patient as etting the first results can take some time. Here are some results during training:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/gan_evolution_training_epoch.jpg)
 
-3. Test your model:
+### 3. Test your model:
 - Edit test.py to match the path where you saved your model
 - Also adjust latent space dimension if required
 - run using "python test.py" to generate some test images in your output folder

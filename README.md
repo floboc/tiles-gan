@@ -6,10 +6,10 @@ This repository contains all the source code used to generate small 2D tiles com
 Generating tiles was achieved using a **Deep Convolutional Generative Adversarial Network** (DCGAN).
 This code uses PyTorch as backend.
 
-This is an example of what it can generate:
+This is an example of what it can generate:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/gan_generated_tiles_2.jpg)
 
-And when interpolating in its latent space:
+And when interpolating in its latent space:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/gan_latent_space_interpolation.jpg)
 
 **You can find more information and details about this source code in this article:** <https://playerone-studio.com/gan-2d-tiles-generative-adversarial-network>
@@ -30,7 +30,7 @@ There are few dependencies:
 - All tilesets must be in a folder with no other file, and tiles should be of the same size in all tilesets (here 32x32)
 - Tiles will be saved as individual PNG files. Empty tiles will be omitted.
 
-Here are some samples of tiles I used for my dataset:
+Here are some samples of tiles I used for my dataset:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/training_images.jpg)
 
 2. Train your model:
@@ -38,7 +38,7 @@ Here are some samples of tiles I used for my dataset:
 - Also adjust any settings as you want. The settings are detailed in the file gan.py
 - run using "python train.py"
 
-You should be patient as etting the first results can take some time. Here are some results during training:
+You should be patient as etting the first results can take some time. Here are some results during training:\
 ![](https://github.com/floboc/tiles-gan/blob/master/samples/gan_evolution_training_epoch.jpg)
 
 3. Test your model:

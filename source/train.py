@@ -31,7 +31,7 @@ opts.generator_frequency = 1
 opts.generator_dropout = 0.3
 opts.label_softness = 0.2
 opts.batch_size = 128
-opts.epoch_number = 2
+opts.epoch_number = 300
 
 #Note: if you are using jupyter notebook you might need to disable workers: 
 opts.workers_nbr = 0;
